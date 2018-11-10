@@ -1,5 +1,5 @@
 #hello{
-    background-color: blue;
+    background-color: rgb(210, 211, 211);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +9,49 @@
 .web{
     font-size: 20px;
     padding-left: 4vh;
-    color: red;
+    color: rgb(73, 73, 73);
     
 }
+
+#projects{
+    text-align: center;
+    margin-top: 5vh;
+    color: rgb(88, 87, 87);
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30vh;
+    
+    align-items:center;
+  }
+
+  .boxes *{
+      background-color:red;
+      height: 20vh;
+      width: 17vh;
+      text-align: center;
+  }
+
+  .boxes2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30vh;
+    
+    align-items:center;
+  }
+
+  .boxes2 *{
+      background-color:red;
+      height: 20vh;
+      width: 17vh;
+      text-align: center;
+  }
+
+  
+  
+  
+      
