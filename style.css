@@ -1,5 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:#FFE066;
+}
+ul{
+    position:fixed;
+    
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 5vh;
+    background-color:#247BA0;
+    
+    
+    text-align: right;
+    
+}
+
+li {
+    padding-left: 20vh;
+    padding-right: 4vh;
+    display: inline;  
+    color:#FFE066;
+    
+    
+    font-size: 3vh;
+}
+
+#has1{
+    color:#FFE066;
+}
 #hello{
-    background-color: rgb(210, 211, 211);
+    background-color: #247BA0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +45,7 @@
 .web{
     font-size: 20px;
     padding-left: 4vh;
-    color: rgb(73, 73, 73);
+    color:#FFE066;
     
 }
 
@@ -23,33 +59,74 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 30vh;
+    height: 40vh;
     
     align-items:center;
   }
 
   .boxes *{
       background-color:red;
-      height: 20vh;
-      width: 17vh;
+      height: 30vh;
+      width: auto;
       text-align: center;
+      border-style: solid;
+      border-width: 0.1vh;
+      border-color: grey;
   }
 
   .boxes2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    height: 30vh;
+    height: 40vh;
     
     align-items:center;
   }
 
   .boxes2 *{
-      background-color:red;
-      height: 20vh;
-      width: 17vh;
+      
+      height: 30vh;
+      width: auto;
       text-align: center;
+      border-style: solid;
+      border-width: 0.1vh;
+      border-color: grey;
   }
+
+  @media only screen and (max-width: 600px) {
+      ul{
+          text-align: center;
+          
+          
+      }
+      li{
+          
+          padding-left: 5vw;
+      }
+      
+    .boxes, .boxes2{
+        flex-direction: column;
+        justify-content: space-around;  
+        margin-top:5vh;
+        height: 200vh;
+
+        
+        
+    }
+      
+    .boxes *, .boxes2 * {
+        background-color: blue;
+        margin-bottom: 5px;
+        
+        width: auto;
+        height: 40vh;
+
+        
+        
+        
+        
+    }
+}
 
   
   
