@@ -1,0 +1,14 @@
+#hello{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.web{
+    font-size: 20px;
+    padding-left: 4vh;
+    color: red;
+    
+}
