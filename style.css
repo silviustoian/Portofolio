@@ -107,6 +107,8 @@ li {
     flex-direction: row;
     justify-content: space-around;
     height: 40vh;
+    margin-top:100px;
+    
     
     align-items:center;
   }
@@ -171,6 +173,7 @@ li {
          margin-top:17vh;
         
       }
+      
       
     .boxes, .boxes2{
         flex-direction: column;
