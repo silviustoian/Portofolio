@@ -8,7 +8,19 @@ body {
 a{
     text-decoration: none;
     color:#FFE066;
+    outline:none;
+    
+
 }
+
+a img{
+    outline:none;
+}
+
+img{
+    border:0;
+}
+ 
 .web{
     text-align: center;
     padding-right: 10%;
@@ -17,6 +29,7 @@ a{
     width: 100%;
 }
 ul{
+    position:fixed;
     
     
     list-style-type: none;
@@ -44,6 +57,7 @@ li {
 #has1{
     color:#FFE066;
     text-align: center;
+    padding-left: 10vh;
 }
 #hello{
     background-color: #247BA0;
@@ -56,7 +70,7 @@ li {
 
 .web{
     font-size: 20px;
-    padding-left: 4vh;
+    padding-left: 0vh;
     color:#FFE066;
     
 }
@@ -85,9 +99,7 @@ li {
       height: 30vh;
       width: auto;
       text-align: center;
-      border-style: solid;
-      border-width: 0.1vh;
-      border-color: grey;
+      
   }
 
   .boxes2 {
@@ -121,18 +133,8 @@ li {
 
   }
 
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
+  
+
 
 #icons{
     background-color: #247BA0;
@@ -144,11 +146,7 @@ li {
     font-size: 3vh;
     text-align: center;
 }
-.fa-facebook-f{
-    
-    background: #3B5998;
-    color: white;
-}
+
   #copyright{
     
     background-color:#50514F;
