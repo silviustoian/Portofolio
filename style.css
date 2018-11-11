@@ -116,9 +116,7 @@ li {
       height: 30vh;
       width: auto;
       text-align: center;
-      border-style: solid;
-      border-width: 0.1vh;
-      border-color: grey;
+      
   }
 
   #contact-div{
