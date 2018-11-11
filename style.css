@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
+    
+    
 }
 a{
     text-decoration: none;
@@ -11,8 +13,11 @@ a{
     text-align: center;
     padding-right: 10%;
 }
+#header{
+    width: 100%;
+}
 ul{
-    position:fixed;
+    
     
     list-style-type: none;
     margin: 0;
@@ -46,6 +51,7 @@ li {
     justify-content: center;
     align-items: center;
     height: 95vh;
+    width: 100%;
 }
 
 .web{
@@ -59,6 +65,8 @@ li {
     text-align: center;
     margin-top: 5vh;
     color: rgb(88, 87, 87);
+    width: inherit;
+    
 }
 
 .boxes {
@@ -66,12 +74,14 @@ li {
     flex-direction: row;
     justify-content: space-around;
     height: 40vh;
+    width:inherit;
+    
     
     align-items:center;
   }
 
   .boxes *{
-      background-color:red;
+      
       height: 30vh;
       width: auto;
       text-align: center;
@@ -104,12 +114,41 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 45vh;
+    height: 15vh;
     color:#FFE066;
     font-size: 3vh;
     text-align: center;
 
   }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+#icons{
+    background-color: #247BA0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    color:#FFE066;
+    font-size: 3vh;
+    text-align: center;
+}
+.fa-facebook-f{
+    
+    background: #3B5998;
+    color: white;
+}
   #copyright{
     
     background-color:#50514F;
@@ -120,8 +159,11 @@ li {
   }
 
   @media only screen and (max-width: 600px) {
+      
+      
       ul{
           text-align: center;
+        
           
           
       }
@@ -129,29 +171,36 @@ li {
           
           padding-left: 5vw;
       }
+     .boxes {
+         margin-top:17vh;
+        
+      }
       
     .boxes, .boxes2{
         flex-direction: column;
         justify-content: space-around;  
         
-        height: 100vh;
+        
+        
+        height: 55vh;
 
         
         
     }
       
     .boxes *, .boxes2 * {
-        background-color: blue;
-        margin-bottom: ;
         
-        width: auto;
-        height: 40vh;
+        
+        
+        width: 99%;
+        height: auto;
 
-        
-        
-        
-        
+    
     }
+    #contact-div{
+        font-size: 2vh;
+    }
+
 }
 
   
